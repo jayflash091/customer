@@ -347,6 +347,19 @@ font-size: 45.752px;
         margin:40px auto;
     }
 
+    .mama{
+         margin-left: 500px; 
+    }
+
+    .no-200{
+         display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        margin:auto;
+      font-family: "montserrat", sans-serif;
+        
+    }
+
 
     @media screen and (max-width:900px) {
         .practice{
@@ -385,7 +398,11 @@ width: 49%;
 
      .card-section .card22{width: 49%;
     }
-
+.mama{
+    display: block;
+    align-items: center;
+    margin-left: 340px;
+}
     
 }
 
@@ -424,9 +441,30 @@ width: 100%;
         display: flex;
         flex-shrink: 0; 
         margin-left: 20px;
+        gap:30px;
+        flex-wrap: wrap;
+
+    }
+
+    .ud{
+        margin-top: 10px;
+        display: block;
+        row-gap: 30px;
     }
     
     .jay{
         margin-left: 20px;
+        margin-top:190px ;
+        display: flex;
+flex-wrap: wrap;
+gap: 30px;
+    }
+
+    .no-200{
+        display: none;
+    }
+
+    .mama{
+        display: none;
     }
     }
