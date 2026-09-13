@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+     font-family: "montserrat", sans-serif;
+}
+
+header{
+        border:1px solid #fff;
+        position: fixed;
+        top: 0;
+        height: 90px;
+        width: 100%;
+        color: #fff;
+        background-color: #fff;
+    }
+
+    nav{
+        display: flex;
+    }
+
+     .no09{
+        padding:38px;
+    }
+
+    .n0-09{
+        display: flex;
+        gap: 40px;
+    }
+
+     .no-2{
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        margin: 40px 0px 40px 130px;
+      font-family: "montserrat", sans-serif;
+        
+    }
+
+    .no-d{
+        text-decoration: none;
+        color:black;
+    }
+
+    .no-d:hover{
+        color: #E03131;
+        text-decoration:none;
+    }
+
+    .no-9d{
+        text-decoration: none;
+        color:red;
+    }
+
+    .no-02{
+        height: 50px;
+        width: 220px;
+        margin-top: 20px;
+        margin-left: 70px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        border-radius: 40px;
+        border: 3px solid #fff;
+        background-color: #E03131;
+        color: #fff;
+        font-size:19px;
+    }
+
+
+    .no-02:hover{
+       background-color: #f7cbcb;
+       color: #fff;
+       cursor: pointer;
+    }
+
+    .hero{
+        min-height: 40dvh;
+        width: 70%;
+        margin: 100px auto 40px;
+        text-align: center;
+    }
+
+    .hero>h1{
+        font-size: 59.752px;
+    }
+
+    .hero>p {
+        font-size: 24px;
+    }
+
+    .card-section{
+        min-height: 40dvh;
+        /*border: 1px dashed red;*/
+        width: 96%;
+        margin: auto;
+    }
+
+    .card-section .Creator{
+        
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card-section .card{
+        border: 1px solid;
+        height: 500px;
+        width: 32%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .card-img{
+        height: 60%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: end;
+        border-radius: 10px 10px 0 0;
+    }
+
+        .card-section .card22{
+        border: 1px solid;
+        height: 500px;
+        width: 32%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .card-img23{
+        height: 60%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: end;
+        border-radius: 10px 10px 0 0;
+    }
+
+ .card22:nth-child(1) {
+        background-color: #94CDC6;
+    }
+
+    .card22:nth-child(2) {
+        background-color:#7F99DF;
+    }
+
+    .card22:nth-child(3) {
+        background-color: #7FB9B8;
+    }
+
+      .card22:nth-child(4) {
+        background-color: #FEDC88;
+    }
+
+
+      .card22:nth-child(5) {
+        background-color: #D9CCC0;
+    }
+
+
+      .card22:nth-child(6) {
+        background-color:#E09396;
+    }
+
+
+      .card22:nth-child(7) {
+        background-color:#9DC89F;
+    }
+
+
+    
+    .card22:nth-child(1) .card-img23{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/ryan_jespersen/hero-1408-4738cb5ec2dec201e300cf8fe2cbf6f87fca3997f4aed5c801d2f3f9e35dd7e2.jpg);
+    }
+
+    .card22:nth-child(2) .card-img23{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/reading_royals/hero-1408-de658395bdff3a32e01acd253630dc7573fd614334fe5449d7707b56aca15b9c.webp);
+    }
+
+.card22:nth-child(3) .card-img23{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/tahoe_knight_monsters/hero-1408-1c59c290eed2eb65199ef04551bf34eca4584e2d58c64b64b17e02a9d75a7fe1.jpg);
+    }
+
+
+     .card22:nth-child(4) .card-img23{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/the_bison/hero-1408-86a6430dd9887bd518e18af0ce077efcb8d380fc1f0a53ed43b3cd0ed5826d96.webp);
+    }
+
+     .card22:nth-child(5) .card-img23{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/the_infamous_stringdusters/hero-1408-36f266c8d8d83c9bdb4330aed62456eed3fb54936f9213add52a839bdb728ff9.webp);
+    }
+
+     .card22:nth-child(6) .card-img23{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/university_of_nebraska_lincoln/hero-1408-ed8901b5b457559df79c6fd6a0929f2a1f138cd5ce14d9c9fb2c87705a61f7b8.jpg);
+    }
+
+
+     .card22:nth-child(7) .card-img23{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/yeovil_town/hero-1408-709484332200ef138fbd00f1b8d9bcd492184cc6741ad98eec2c50deef6f97fc.jpg);
+    }
+
+
+    .card-img-box{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .card-img-box h2{
+        font-size: 36px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .card-body{
+        padding: 20px;
+     /*   border: 1px solid red;*/
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-text{
+        font-size: 20px;
+        height: 20dvh;
+        line-height: 28px;
+    }
+
+    .card-link{
+        font-weight: 700;
+        text-decoration: none;
+        color: black;
+        background-color:RGBA(255, 255, 255, 0.4);
+        padding: 10px;
+        border-radius: 20px;
+        width: fit-content;
+    }
+
+
+
+    .card-text3{
+line-height: 27px;
+ font-size: 18px;
+        height: 17dvh;
+    }
+    
+     .card-text5{
+line-height: 34px;
+ font-size: 23px;
+        height:30 dvh;
+    }
+
+    .tesjay{
+        text-align: center;
+font-size: 45.752px;
+    }
+
+    .jay{
+        display: flex;
+        justify-content: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    gap: 3px;
+    }
+
+    .fast{
+        display: flex;
+        justify-content:center ;
+        height: 90px;
+      justify-content: space-evenly;
+    gap: 3px;
+    }
+
+    .ladyT{
+        margin-top: 40px;
+        font-size:3% ;
+        display: flex;
+    }
+
+    .card-link .bi-chevron-right{
+        font-size: 10px;
+    }
+
+    .card:nth-child(1) {
+        background-color: #EE8695;
+    }
+
+    
+    .card:nth-child(2) {
+        background-color: #E09396;
+    }
+
+    
+    .card:nth-child(3) {
+        background-color:#CFE8FF;
+    }
+
+     .card:nth-child(4) {
+        background-color: #91A4C7;
+    }
+
+    
+    .card:nth-child(5) {
+        background-color: #FF80D2;
+    }
+
+    
+    .card:nth-child(6) {
+        background-color:#AD9BCA;
+    }
+
+    .card:nth-child(1) .card-img{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/cincinnati_cyclones/hero-2112-81f15aa3048afbea87439cb136b2e2dd77151b97ac768b327ed2816f5d29a1cf.jpg);
+    }
+
+    .card:nth-child(2) .card-img{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/defqon_1/hero-1408-2bb8436e462b3ad69919eecebfcb727626657dfad3726f7fa8d71b4e08a349a6.jpg);
+    }
+
+.card:nth-child(3) .card-img{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/nycfc/hero-704-e4f21b7ecfd97b7e3ba4ad7b0374b0cc2e3ebc6f37d12b3de43d5afeab78526d.jpg);
+    }
+
+    .card:nth-child(4) .card-img{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/omaha_storm_chasers/hero-704-8608685e547fce08ff038fc76472c9eabd400d9351f64ab939effb18e82020c8.webp);
+    }
+
+    .card:nth-child(5) .card-img{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/our_radio_by_mencap/hero-1408-0c5fb19d8d130393db12263129a98762c59bc3d3fc458a907009629981d4b778.jpg);
+    }
+
+    .card:nth-child(6) .card-img{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url(https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/reading_royals/hero-1408-6b69a55d788773a732ec851f12ab621f62a35578047fc42a962812d3c0a0b99e.jpg);
+    }
+
+
+    .practice{
+        width: 50%;
+        background-color: #E03131;
+        height: 300px;
+        margin:40px auto;
+    }
+
+
+    @media screen and (max-width:900px) {
+        .practice{
+width: 70%;
+background-color: blue;
+        }
+
+        .no-2{
+            display: none;
+        }
+
+        .no-02{
+            margin-left: auto;
+        }
+
+        .menu{
+            display: block;
+            font-size: 2rem;
+            margin-left: 20px;
+        }
+
+          .hero{
+        min-height: 10dvh;
+        width: 80%;
+    
+    
+    }
+
+    .hero>h1{
+        font-size: 40px;
+    }
+
+         .card-section .card{
+width: 49%;
+    }
+
+     .card-section .card22{width: 49%;
+    }
+
+    
+}
+
+    
+    @media screen and (max-width:500px) {
+     .practice{
+        width: 90%;
+        background-color: greenyellow;
+     }
+
+
+    .hero>h1{
+        font-size: 30px;
+    }
+
+    .hero>p {
+        font-size: 1.1rem;
+    }
+
+           .card-section .card{
+width: 100%;
+    }
+
+     .card-section .card22{
+        width: 100%;
+     }
+
+
+     
+    .ladyT{
+        width: 19%;
+
+    }
+
+    .fast{
+        display: flex;
+        flex-shrink: 0; 
+        margin-left: 20px;
+    }
+    
+    .jay{
+        margin-left: 20px;
+    }
+    }
